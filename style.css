@@ -5,10 +5,15 @@ html{
 }
 /* LAYOUT HEADER/FOOTER */
 .header-footer-container{
-
+    width: 85%;
+    min-height: 100px;
+    margin: 0 auto;
 }
 /* LAYOUT CONTENUTI CENTRALI */
 .main-container{
+    width: 75%;
+    min-height: 100px;
+    margin: 0 auto;
 
 }
 .clearfix{
@@ -88,6 +93,7 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0 auto;
+    font-weight: 600;
 }
 .nav-content_right>button{
     transform: translate(0%, -20%);
@@ -97,4 +103,35 @@ a{
 header{
     min-height:600px; 
     background-color: #b4d0e7;
+    margin-bottom: 100px;
 }
+#header-title{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.header-row{
+    min-height: 400px;
+}
+/* COLONNE HEADER */
+#col1{
+    float: left;
+    max-width: 30%;
+}
+#col1>button{
+    height: 35px;
+}
+#col1>h5{
+    font-weight: 200;
+}
+#down-arrow{
+    font-size: 30px;
+}
+#col2{
+    float: left;
+    max-width: 70%;
+}
+#col2>img{
+    height: 450px;
+}
+
+/* CARD */
