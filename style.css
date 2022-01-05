@@ -1,0 +1,100 @@
+html{
+    margin: 0 auto;
+    max-width: 1280px;
+    font-family: 'Poppins', sans-serif;
+}
+/* LAYOUT HEADER/FOOTER */
+.header-footer-container{
+
+}
+/* LAYOUT CONTENUTI CENTRALI */
+.main-container{
+
+}
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+.nav-bar{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/* NAV-BAR SINISTRA */
+.nav-content_left{
+    position: absolute;
+    font-size: 16px;
+    height: 100%;
+    width: 60%;
+    float: left;
+    left: 0;
+}
+.nav-content_left>img{
+    float: left;
+    margin-right: 20px;
+    vertical-align: center;
+    margin-top: 10px;
+}
+
+.nav-content_left>ul li{
+    float: left;
+    padding-right: 15px;
+    list-style: none;
+    vertical-align: center;
+}
+.nav-content_left li{
+    padding-left: 10px;
+    vertical-align: center;
+}
+/* NAV-BAR DESTRA */
+.nav-content_right{
+    position: absolute;
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 100%;
+    width: 40%;
+    float: right;
+    right: 0;
+}
+.nav-content_right>ul li{
+    float: left;
+    padding-right: 15px;
+    list-style: none;
+    vertical-align: center;
+}
+.nav-content_right li{
+    padding-left: 10px;
+    vertical-align: center;
+}
+.nav-content_right>button{
+    float: left;
+    vertical-align: center;
+    margin-left: 25px;
+}
+/* BOTTONE BLU CARATTERISTICHE DI DEFAULT */
+.blue-button{
+    color: white;
+    background-color: #0061ff;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+.nav-content_right>button{
+    transform: translate(0%, -20%);
+}
+
+/* HEADER */
+header{
+    min-height:600px; 
+    background-color: #b4d0e7;
+}
