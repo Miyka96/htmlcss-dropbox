@@ -1,8 +1,9 @@
 html{
     margin: 0 auto;
     max-width: 1280px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
+
 /* LAYOUT HEADER/FOOTER */
 .header-footer-container{
     width: 85%;
@@ -14,7 +15,7 @@ html{
     width: 75%;
     min-height: 100px;
     margin: 0 auto;
-
+    margin-bottom: 80px;
 }
 .clearfix{
     content: '';
@@ -62,7 +63,6 @@ a{
 .nav-content_right{
     position: absolute;
     font-size: 16px;
-    font-family: sans-serif;
     height: 100%;
     width: 40%;
     float: right;
@@ -135,3 +135,37 @@ header{
 }
 
 /* CARD */
+.card{
+    float: left;
+    width: calc(33% - 40px);
+    min-height: 600px;
+    border: 1px solid lightgrey;
+    margin-right: 40px;
+}
+.card_header{
+    border-bottom: 1px solid lightgrey;
+    vertical-align: center;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+.card_header img{
+    height: 18px;
+    transform: translate(0,25%);
+    margin-right: 5px;
+}
+.card_title-price{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.card_title-price>h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.card_title-price>h6{
+    color: grey;
+    font-size: 13px;
+    margin-top: 2px;
+    font-weight: 400;
+}
+
