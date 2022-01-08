@@ -13,7 +13,7 @@ html{
 /* LAYOUT CONTENUTI CENTRALI */
 .main-container{
     width: 75%;
-    min-height: 100px;
+    max-height: 800px;
     margin: 0 auto;
     margin-bottom: 80px;
 }
@@ -214,4 +214,84 @@ header{
 }
 .card-description2 ul>li{
     margin-bottom: 18px;
+}
+#horizontal-card{
+    border: 1px solid lightgrey;
+    width: 95%;
+}
+#horizontal-card-content{
+    min-height: 150px;
+    width: 100%;
+}
+#horizontal-card-title{
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding-left: 5%;
+    
+}
+#horizontal-card-button{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+#horizontal-card-button>button{
+    margin-left: 40%;
+    margin-top: 8%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#horizontal-card-description{
+    float: left;
+    height: 100%;
+    padding-left: 5%;
+    font-size: 14px;
+}
+
+.content-col{
+    float: left;
+    width: 45%;
+    min-height: 200px;
+}
+.content-col>img{
+    height: 400px;
+}
+.content-col>h2{
+    margin-left: 100px;
+}
+.content-col>p{
+    margin-left: 100px;
+}
+.content-col>button{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.card-mini{
+    float: left;
+    width: calc(33% - 40px);
+    min-height: 500px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.card-mini-img{
+    height: 220px;
+}
+.card-mini>h3{
+    margin-left: 10px;
+}
+.card-mini>p{
+    margin-left: 10px;
+}
+.card-mini>p span{
+    text-decoration: underline;
+}
+#blue-anchor{
+    color: blue;
+    text-decoration: underline;
 }
