@@ -7,7 +7,7 @@ html{
 /* LAYOUT HEADER/FOOTER */
 .header-footer-container{
     width: 85%;
-    min-height: 100px;
+    min-height: 400px;
     margin: 0 auto;
 }
 /* LAYOUT CONTENUTI CENTRALI */
@@ -332,7 +332,7 @@ header{
     background-color: #a2d39b;
 }
 #quarter-left-1{
-    height: 30px;   
+    height: 30px;  ;
 }
 
 #bg-left-2{
@@ -395,4 +395,86 @@ header{
 #center-col-paragr{
     padding: 10%;
     font-size: 14px;
+}
+
+.section2{
+    min-height: 200px;
+    width: 99%;
+    margin-top: 0;
+    margin-bottom: 150px;
+    background-color: #b4d0e7;
+}
+#sect-2-title{
+    margin-top: 70px;
+    margin-left: 200px;
+    color: #61082b;
+}
+#sect-2-button{
+    margin-top: 75px;
+    margin-left: 200px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.faq-hr{
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+.faq{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.down-arrow-faq{
+    margin-left: 150px;
+}
+
+.footer-container{
+    min-height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+.footer-row{
+    width: 100%;
+    height: 300px;
+}
+.footer-col{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.footer-col>h4{
+    color: white;
+    padding-left: 20%;
+    padding-top: 30%;
+    font-size: 20px;
+}
+.footer-col>ul li{
+    color: white;
+    list-style: none;
+    padding-left: 5%;
+    font-size: 15px;
+}
+.footer-col li{
+    margin-bottom: 8px;
+}
+#footer-hr{
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 100px;
+}
+#globe{
+    filter: invert(90%);
+    height: 20px;
+    margin-left: 3%;
+    margin-top: 30px;
+}
+#language-select{
+    background-color: black;
+    color: rgb(97, 97, 97);
+    border: none;
+    margin-top: 0;
 }
